@@ -1,0 +1,37 @@
+
+  
+  body{
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+      }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .value {
+    font-size: 80px;
+    padding: 20px;
+    background-color: black ;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    line-height: 1;
+  }
+  
+  .label {
+    font-size: 16px;
+    text-align: center;
+    color: grey;
+  }
